@@ -1,0 +1,371 @@
+(ExpressProject "OH0"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\oh0.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\oh0.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File"
+       "D:\Dropbox\CMS\GEM\OH0\Layout\oh0.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "NEVER_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "0")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (IREFReportFile "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.csv")
+    (IREFViewOutput "0")
+    (CrossRef_Scope "0")
+    (Crossref__Mode "1")
+    (CrossRef_Sorting "0")
+    (CrossRef_Destination_File "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.XRF")
+    (Crossref__Outputtype "0")
+    (CrossRef_XY "FALSE")
+    (CrossRef_Unused "FALSE")
+    (XRF_View_Output "FALSE")
+    ("Allegro Netlist Input Board File" "D:\Dropbox\CMS\GEM\OH0\Layout\oh0.brd")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "FALSE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DRC")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs"
+    (File ".\oh0.csv"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\oh0.xrf"
+      (Type "Report"))
+    (Sort User)
+    (File "OH0.PRP"
+      (Type "Report")
+      (DisplayName "OH0.PRP"))
+    (File ".\oh0.drc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "d:\dropbox\cms\gem\oh0\schematic\oh0.dsn")
+      (Path "Design Resources" "d:\dropbox\cms\gem\oh0\schematic\oh0.dsn"
+         "Optohybrid")
+      (Path "Design Resources" "d:\dropbox\cms\gem\oh0\schematic\oh0.dsn"
+         "Baseboard")
+      (Path "Design Resources" "d:\dropbox\cms\gem\oh0\schematic\oh0.dsn"
+         "LpGBT")
+      (Path "Design Resources" "d:\dropbox\cms\gem\oh0\schematic\oh0.dsn"
+         "Master-Slave")
+      (Path "Design Resources" "d:\dropbox\cms\gem\oh0\schematic\oh0.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "d:\dropbox\cms\gem\oh0\schematic\oh0.olb")
+      (Path "Outputs")
+      (Select "Design Resources" "d:\dropbox\cms\gem\oh0\schematic\oh0.dsn"))
+    (HierarchyView
+      (Path "Optohybrid")
+      (Path "Optohybrid" "BASEBOARD (BASEBOARD)"))
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 351 0 1926"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 0 2993 0 1080")
+        (Scroll "-276 167")
+        (Zoom "298")
+        (Occurrence "/Baseboard"))
+      (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "Baseboard")
+      (Page "Data"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 330 3192 330 1415")
+        (Scroll "-397 0")
+        (Zoom "183")
+        (Occurrence "/Baseboard"))
+      (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "Baseboard")
+      (Page "Power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 420 2911 420 1505")
+        (Scroll "-25 539")
+        (Zoom "298")
+        (Occurrence "/Baseboard"))
+      (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "Baseboard")
+      (Page "Connector A"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -9 -36 450 2941 450 1535")
+        (Scroll "-304 30")
+        (Zoom "298")
+        (Occurrence "/Baseboard"))
+      (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "Baseboard")
+      (Page "Connector_B"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 510 3001 510 1595")
+        (Scroll "-199 0")
+        (Zoom "194")
+        (Occurrence "/LpGBTs/Slave LpGBT"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 540 3031 540 1625")
+        (Scroll "-199 0")
+        (Zoom "194")
+        (Occurrence "/LpGBTs/Master LpGBT"))
+      (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "LpGBT")
+      (Page "LpGBT Config"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 0 2491 0 1085")
+        (Scroll "-175 0")
+        (Zoom "215")
+        (Occurrence "/"))
+      (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "Optohybrid")
+      (Page "Top"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 270 3132 270 1355"))
+      (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (Package "ST5-50-X-Y-Z")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 300 3162 300 1385"))
+      (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (Package "ST5-80-X-Y-Z")
+      (PartType "1")))
+  (MPSSessionName "CMS")
+  (PartMRUSelector
+    (ST5-50-X-Y-Z
+      (FullPartName "ST5-50-X-Y-Z.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_ARROW
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ST5-80-X-Y-Z
+      (FullPartName "ST5-80-X-Y-Z-2.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "1"))
+    (QSH-060-01-X-D-A
+      (FullPartName "QSH-060-01-X-D-A-3.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "2"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (Title_OJ
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (DF40C-100DP-0.4V
+      (FullPartName "DF40C-100DP-0.4V.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LED_RED
+      (FullPartName "LED_RED.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (VCC_CIRCLE
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TP
+      (FullPartName "TP.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (BSS138/SOT
+      (FullPartName "BSS138/SOT.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (LED_GREEN
+      (FullPartName "LED_GREEN.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (lpgbt3
+      (FullPartName "lpgbt3A.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (lpgbt2
+      (FullPartName "lpgbt2B.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "1"))
+    (lpgbt
+      (FullPartName "lpgbtB.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "1"))
+    (SMTSO-M1-2ET
+      (FullPartName "SMTSO-M1-2ET.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (SS4-40-3_00-X-D-L
+    (FullPartName "SS4-40-3_00-X-D-L.Normal")
+    (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+    (DeviceIndex "0"))
+  (PORTRIGHT-R
+    (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (PORTLEFT-L
+    (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (OFFPAGELEFT-R
+    (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (OFFPAGELEFT-L
+    (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (Title_OJ
+    (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+    (DeviceIndex "0"))
+  (TitleBlock3
+    (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (TitleBlock5N
+    (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (TitleBlockANSISmall
+    (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (TitleBlock1
+    (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (PORTLEFT-R
+    (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (VTRX+
+    (FullPartName "VTRX+.Normal")
+    (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+    (DeviceIndex "0"))
+  (lpgbt2
+    (FullPartName "lpgbt2A.Normal")
+    (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+    (DeviceIndex "0"))
+  (VCC
+    (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (QSH-020-01-X-D-DP-A
+    (FullPartName "QSH-020-01-X-D-DP-A.Normal")
+    (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+    (DeviceIndex "0"))
+  (PORTBOTH-R
+    (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (PORTNO-L
+    (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (DeviceIndex "0"))
+  (ISPCBBASICLICENSE "false")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library"))

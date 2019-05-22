@@ -19,7 +19,7 @@
     ("Allegro Netlist Output Board File"
        "D:\Dropbox\CMS\GEM\OH0\Layout\oh0.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
-    ("Allegro Netlist Place Changed Component" "NEVER_REPLACE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
     ("Allegro Setup Backup Versions" "3")
     ("Allegro Setup Ignore Constraints" "FALSE")
@@ -30,7 +30,7 @@
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "0")
     (ANNOTATE_Action "0")
-    (Annotate_Page_Order "1")
+    (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
     (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
@@ -91,6 +91,18 @@
     (DRC_Report_Unused_Part_Packages "TRUE")
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
     (DRC_Run_Physical_Custom_DRC "FALSE")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.SWP")
+    (Backannotation_TAB "0")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File"
+       "D:\Dropbox\CMS\GEM\OH0\Layout\oh0.brd")
+    ("Allegro Backannotation Netlist Directory" "D:\Dropbox\CMS\GEM\OH0\Layout")
+    ("Allegro Backannotation Output File"
+       "D:\Dropbox\CMS\GEM\OH0\Layout\OH0.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "FALSE")
+    ("Allegro Setup Output Warnings" "FALSE")
     (Board_sim_option "VHDL_flow"))
   (Folder "Outputs"
     (File ".\oh0.csv"
@@ -111,7 +123,31 @@
       (Type "Report")
       (DisplayName "OH0.PRP"))
     (File ".\oh0.drc"
-      (Type "Report")))
+      (Type "Report"))
+    (File "..\layout\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File "..\layout\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File "..\layout\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File "..\layout\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat"))
+    (File "..\layout\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File "..\layout\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File "..\layout\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File "..\layout\oh0.swp"
+      (Type "Report")
+      (DisplayName "OH0.swp")))
   (Folder "Referenced Projects")
   (GlobalState
     (FileView
@@ -119,78 +155,83 @@
       (Path "Design Resources" "d:\dropbox\cms\gem\oh0\schematic\oh0.dsn")
       (Path "Design Resources" "d:\dropbox\cms\gem\oh0\schematic\oh0.dsn"
          "Optohybrid")
-      (Path "Design Resources" "d:\dropbox\cms\gem\oh0\schematic\oh0.dsn"
-         "Baseboard")
-      (Path "Design Resources" "d:\dropbox\cms\gem\oh0\schematic\oh0.dsn"
-         "LpGBT")
-      (Path "Design Resources" "d:\dropbox\cms\gem\oh0\schematic\oh0.dsn"
-         "Master-Slave")
-      (Path "Design Resources" "d:\dropbox\cms\gem\oh0\schematic\oh0.dsn"
-         "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "d:\dropbox\cms\gem\oh0\schematic\oh0.olb")
       (Path "Outputs")
       (Select "Design Resources" "d:\dropbox\cms\gem\oh0\schematic\oh0.dsn"))
-    (HierarchyView
-      (Path "Optohybrid")
-      (Path "Optohybrid" "BASEBOARD (BASEBOARD)"))
+    (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 351 0 1926"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 1926"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -36 0 2993 0 1080")
-        (Scroll "-276 167")
-        (Zoom "298")
-        (Occurrence "/Baseboard"))
+        (Placement "44 0 1 -1 -1 -9 -36 30 2708 30 981")
+        (Scroll "-224 259")
+        (Zoom "207")
+        (Occurrence "/"))
       (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
-      (Schematic "Baseboard")
-      (Page "Data"))
+      (Schematic "Optohybrid")
+      (Page "Top"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -36 330 3192 330 1415")
-        (Scroll "-397 0")
-        (Zoom "183")
+        (Placement "44 0 1 -1 -1 -9 -36 60 2738 60 1011")
+        (Scroll "-415 352")
+        (Zoom "224")
         (Occurrence "/Baseboard"))
       (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
       (Schematic "Baseboard")
-      (Page "Power"))
+      (Page "Top Connector"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -36 420 2911 420 1505")
-        (Scroll "-25 539")
-        (Zoom "298")
-        (Occurrence "/Baseboard"))
+        (Placement "44 0 1 -1 -1 -9 -36 90 2768 90 1041")
+        (Scroll "-592 23")
+        (Zoom "137")
+        (Occurrence "/LpGBTs"))
       (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
-      (Schematic "Baseboard")
-      (Page "Connector A"))
+      (Schematic "Master-Slave")
+      (Page "Master"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -9 -36 450 2941 450 1535")
-        (Scroll "-304 30")
-        (Zoom "298")
-        (Occurrence "/Baseboard"))
+        (Placement "44 0 1 -1 -1 -9 -36 120 2798 120 1071")
+        (Scroll "-272 228")
+        (Zoom "198")
+        (Occurrence "/LpGBTs/Master LpGBT"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 240 2812 240 1191")
+        (Scroll "-539 19")
+        (Zoom "137")
+        (Occurrence "/LpGBTs/Slave LpGBT"))
       (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
-      (Schematic "Baseboard")
-      (Page "Connector_B"))
+      (Schematic "LpGBT")
+      (Page "LpGBT E-Links + Transceivers"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -36 510 3001 510 1595")
-        (Scroll "-199 0")
-        (Zoom "194")
+        (Placement "44 0 1 -1 -1 -9 -36 150 2828 150 1101")
+        (Scroll "-592 23")
+        (Zoom "137")
+        (Occurrence "/LpGBTs"))
+      (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "Master-Slave")
+      (Page "Slave"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 180 2858 180 1131")
+        (Scroll "-592 23")
+        (Zoom "137")
         (Occurrence "/LpGBTs/Slave LpGBT"))
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -36 540 3031 540 1625")
-        (Scroll "-199 0")
-        (Zoom "194")
+        (Placement "44 0 1 -1 -1 -9 -36 270 2948 270 1221")
+        (Scroll "-592 19")
+        (Zoom "137")
         (Occurrence "/LpGBTs/Master LpGBT"))
       (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
       (Schematic "LpGBT")
@@ -198,38 +239,101 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -36 0 2491 0 1085")
-        (Scroll "-175 0")
-        (Zoom "215")
-        (Occurrence "/"))
+        (Placement "44 0 1 -1 -1 -9 -36 300 2978 300 1251")
+        (Scroll "-503 275")
+        (Zoom "202")
+        (Occurrence "/Baseboard"))
       (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
-      (Schematic "Optohybrid")
-      (Page "Top"))
+      (Schematic "Baseboard")
+      (Page "Bottom Connector"))
     (Doc
-      (Type "COrPrmBrowserDoc")
+      (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -36 270 3132 270 1355"))
-      (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
-      (Package "ST5-50-X-Y-Z")
-      (PartType "1"))
+        (Placement "44 0 1 -1 -1 -9 -36 30 3173 30 825")
+        (Scroll "-531 174")
+        (Zoom "193")
+        (Occurrence "/Optics"))
+      (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "Optics")
+      (Page "VL+4x1"))
     (Doc
-      (Type "COrPrmBrowserDoc")
+      (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -36 300 3162 300 1385"))
-      (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
-      (Package "ST5-80-X-Y-Z")
-      (PartType "1")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 158 0 45")
+        (Scroll "393 235")
+        (Zoom "130")
+        (Occurrence "/LpGBTs/Master LpGBT"))
+      (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "LpGBT")
+      (Page "LpGBT Clocks")))
   (MPSSessionName "CMS")
   (PartMRUSelector
-    (ST5-50-X-Y-Z
-      (FullPartName "ST5-50-X-Y-Z.Normal")
+    (SMTSO-M1-2ET
+      (FullPartName "SMTSO-M1-2ET.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (Title_OJ
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (SN74AUP1G17DRYR
+      (FullPartName "SN74AUP1G17DRYR.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (M3_MOUNT
+      (FullPartName "M3_MOUNT.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (LpGBT
+      (FullPartName "LpGBTA.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (PCA9306FMUTCG
+      (FullPartName "PCA9306FMUTCG.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
       (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
       (DeviceIndex "0"))
     (PORTLEFT-L
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LED_GREEN
+      (FullPartName "LED_GREEN.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
+      (DeviceIndex "0"))
+    (VCC_CIRCLE
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (VCC_ARROW
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (UCC8-010-1-H-S-1-A
+      (FullPartName "UCC8-010-1-H-S-1-A.Normal")
+      (LibraryName "C:\USERS\CMS\DOWNLOADS\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (UEC5-019-2_x4
+      (FullPartName "UEC5-019-2_x4.Normal")
+      (LibraryName "C:\USERS\CMS\DOWNLOADS\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (ST5-50-X-Y-Z
+      (FullPartName "ST5-50-X-Y-Z.Normal")
+      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
       (DeviceIndex "0"))
     (ST5-80-X-Y-Z
       (FullPartName "ST5-80-X-Y-Z-2.Normal")
@@ -239,19 +343,9 @@
       (FullPartName "QSH-060-01-X-D-A-3.Normal")
       (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
       (DeviceIndex "2"))
-    (LED
-      (FullPartName "LED.Normal")
-      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
-      (DeviceIndex "0"))
-    (Title_OJ
-      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
-      (DeviceIndex "0"))
     (DF40C-100DP-0.4V
       (FullPartName "DF40C-100DP-0.4V.Normal")
       (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
-      (DeviceIndex "0"))
-    (PORTRIGHT-R
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (PORTBOTH-R
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -260,56 +354,11 @@
       (FullPartName "LED_RED.Normal")
       (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
       (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
-      (DeviceIndex "0"))
-    (VCC_CIRCLE
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     ("CAP NP"
       (FullPartName "CAP NP.Normal")
       (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
       (DeviceIndex "0"))
     (OFFPAGELEFT-L
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (INDUCTOR
-      (FullPartName "INDUCTOR.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (TP
-      (FullPartName "TP.Normal")
-      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
-      (DeviceIndex "0"))
-    (PORTRIGHT-L
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (BSS138/SOT
-      (FullPartName "BSS138/SOT.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
-      (DeviceIndex "0"))
-    (LED_GREEN
-      (FullPartName "LED_GREEN.Normal")
-      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
-      (DeviceIndex "0"))
-    (lpgbt3
-      (FullPartName "lpgbt3A.Normal")
-      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
-      (DeviceIndex "0"))
-    (lpgbt2
-      (FullPartName "lpgbt2B.Normal")
-      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
-      (DeviceIndex "1"))
-    (lpgbt
-      (FullPartName "lpgbtB.Normal")
-      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
-      (DeviceIndex "1"))
-    (SMTSO-M1-2ET
-      (FullPartName "SMTSO-M1-2ET.Normal")
-      (LibraryName "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.OLB")
-      (DeviceIndex "0"))
-    (GND_SIGNAL
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
   (SS4-40-3_00-X-D-L

@@ -25,4 +25,9 @@
 *.PRP
 *.XRF
 *.dat*
-
+*.lst
+*.ps
+*.rpt
+*.drl
+*.scr
+*.art

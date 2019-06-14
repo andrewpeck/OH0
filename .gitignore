@@ -31,3 +31,13 @@
 *.drl
 *.scr
 *.art
+*,1
+*.sum
+Release/*
+*.out
+*.cplida
+*.impida
+*.SAV
+*.swp
+*AUTOSAVE.brd*
+*.dmp

@@ -5,7 +5,8 @@ RELEASEDIR="ASIAGO-"$(date +%Y%m%d-%H%M%S)
 mkdir $RELEASEDIR
 cd ../Layout && sh zip_artwork.sh && cd -
 cp ../Schematic/oh0.pdf $RELEASEDIR/ME0_ASIAGO_SCHEMATIC_$DATESHORT.pdf
-cp ../Schematic/ME0_ASIAGO_BOM.xlsx $RELEASEDIR/
+cp ../Layout/place_txt.txt $RELEASEDIR/ME0_ASIAGO_PLACEMENT_$DATESHORT.txt
+cp ../Schematic/ME0_ASIAGO_BOM.xlsx $RELEASEDIR/ME0_ASIAGO_BOM_$DATESHORT.xlsx
 cp ../Layout/ME0_ASIAGO_ARTWORK.pdf $RELEASEDIR/ME0_ASIAGO_ARTWORK_$DATESHORT.pdf
 cp ../Layout/asiago_artwork.zip $RELEASEDIR/
 zip -FS -r asiago_project.zip ../Layout ../Schematic ../Padstacks ../Footprints && mv asiago_project.zip $RELEASEDIR/

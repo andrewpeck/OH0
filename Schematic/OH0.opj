@@ -170,13 +170,13 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 558 0 894"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 894"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -9 -36 90 3023 90 1247")
-        (Scroll "365 533")
+        (Placement "44 0 1 -1 -1 -9 -36 90 3023 90 1247")
+        (Scroll "-588 211")
         (Zoom "162")
         (Occurrence "/"))
       (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
@@ -186,7 +186,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -36 -1612 1321 45 1202")
-        (Scroll "-807 0")
+        (Scroll "-807 292")
         (Zoom "158")
         (Occurrence "/Baseboard"))
       (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
@@ -211,7 +211,7 @@
         (Occurrence "/LpGBTs/Master LpGBT"))
       (Frame
         (Placement "44 0 1 -1 -1 -9 -36 330 3263 330 1487")
-        (Scroll "-320 175")
+        (Scroll "-320 313")
         (Zoom "213")
         (Occurrence "/LpGBTs/Slave LpGBT"))
       (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")
@@ -221,7 +221,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -36 -136 2797 -20 1137")
-        (Scroll "-943 36")
+        (Scroll "-943 114")
         (Zoom "124")
         (Occurrence "/Baseboard"))
       (Path "D:\DROPBOX\CMS\GEM\OH0\SCHEMATIC\OH0.DSN")

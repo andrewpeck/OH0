@@ -1,3 +1,4 @@
+*.~undo-tree~
 *.log
 *.log,*
 *.dml
@@ -41,3 +42,4 @@ Release/*
 *.swp
 *AUTOSAVE.brd*
 *.dmp
+*.dra,2

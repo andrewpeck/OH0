@@ -17,7 +17,7 @@
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
     ("Allegro Netlist Output Board File"
-       "D:\Dropbox\CMS\GEM\OH0\Layout\oh0.brd")
+       "C:\Users\Andrew\Dropbox\CMS\GEM\ME0\OH0\Layout\oh0.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -53,7 +53,8 @@
     (CrossRef_XY "FALSE")
     (CrossRef_Unused "FALSE")
     (XRF_View_Output "FALSE")
-    ("Allegro Netlist Input Board File" "D:\Dropbox\CMS\GEM\OH0\Layout\oh0.brd")
+    ("Allegro Netlist Input Board File"
+       "C:\Users\Andrew\Dropbox\CMS\GEM\ME0\OH0\Layout\oh0.brd")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (DRC_Scope "0")
@@ -152,28 +153,12 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn")
-      (Path "Design Resources"
-         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn"
-         "Optohybrid")
-      (Path "Design Resources"
-         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn" "LpGBT")
-      (Path "Design Resources"
-         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn"
-         "Master-Slave")
-      (Path "Design Resources"
-         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn" "Optics")
-      (Path "Design Resources"
-         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn"
-         "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.olb")
       (Path "Outputs")
       (Select "Design Resources"
-         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn" "Optics"
-         "VL+4x1"))
+         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -191,7 +176,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 130 1306 130 641")
-        (Scroll "461 696")
+        (Scroll "461 844")
         (Zoom "176")
         (Occurrence "/"))
       (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
@@ -201,7 +186,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1254 78 589")
-        (Scroll "461 76")
+        (Scroll "113 295")
         (Zoom "176")
         (Occurrence "/LpGBTs"))
       (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
@@ -211,7 +196,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1280 104 615")
-        (Scroll "676 54")
+        (Scroll "676 878")
         (Zoom "200")
         (Occurrence "/LpGBTs"))
       (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
@@ -220,9 +205,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 130 1306 130 641")
-        (Scroll "-164 77")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -31 130 1306 130 641")
+        (Scroll "2311 1355")
+        (Zoom "352")
         (Occurrence "/Optics"))
       (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
       (Schematic "Optics")
@@ -231,12 +216,47 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 208 1384 208 719")
-        (Scroll "-39 87")
+        (Scroll "-39 50")
         (Zoom "100")
         (Occurrence "/LpGBTs/Master LpGBT"))
       (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
       (Schematic "LpGBT")
-      (Page "LpGBT Analog + GPIO + Clocks")))
+      (Page "LpGBT Analog + GPIO + Clocks"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 234 1410 234 745")
+        (Scroll "-39 0")
+        (Zoom "100")
+        (Occurrence "/LpGBTs/Master LpGBT"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1202 26 537")
+        (Scroll "-39 0")
+        (Zoom "100")
+        (Occurrence "/LpGBTs/Slave LpGBT"))
+      (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "LpGBT")
+      (Page "LpGBT E-Links + Transceivers"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1176 0 511")
+        (Scroll "-39 0")
+        (Zoom "100")
+        (Occurrence "/LpGBTs/Master LpGBT"))
+      (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "LpGBT")
+      (Page "LpGBT Power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1228 52 563")
+        (Scroll "-102 0")
+        (Zoom "88")
+        (Occurrence "/LpGBTs/Master LpGBT"))
+      (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "LpGBT")
+      (Page "LpGBT Config")))
   (MPSSessionName "Andrew")
   (PartMRUSelector
     (M1P6_CLEARANCE_HOLE

@@ -119,7 +119,7 @@
     (File ".\oh0.xrf"
       (Type "Report"))
     (Sort User)
-    (File ".\oh0.prp"
+    (File "OH0.PRP"
       (Type "Report")
       (DisplayName "OH0.PRP"))
     (File ".\oh0.drc"
@@ -158,15 +158,18 @@
          "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn"
          "Optohybrid")
       (Path "Design Resources"
-         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn" "Baseboard")
-      (Path "Design Resources"
          "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn" "LpGBT")
       (Path "Design Resources"
          "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn"
          "Master-Slave")
       (Path "Design Resources"
          "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn" "Optics")
+      (Path "Design Resources"
+         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn"
+         "Design Cache")
       (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.olb")
       (Path "Outputs")
       (Select "Design Resources"
          "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn"))
@@ -174,78 +177,18 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 786"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 449 0 786"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1309 52 453")
-        (Scroll "0 0")
-        (Zoom "136")
+        (Placement "44 2 3 -1 -1 -8 -31 130 1306 130 641")
+        (Scroll "-127 -4")
+        (Zoom "88")
         (Occurrence "/"))
       (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
       (Schematic "Optohybrid")
-      (Page "Top"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1279 104 509")
-        (Scroll "93 388")
-        (Zoom "136")
-        (Occurrence "/Optics"))
-      (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
-      (Schematic "Optics")
-      (Page "VL+4x1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1227 52 457")
-        (Scroll "0 306")
-        (Zoom "200")
-        (Occurrence "/Baseboard"))
-      (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
-      (Schematic "Baseboard")
-      (Page "Top Connector"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1279 104 509")
-        (Scroll "7 355")
-        (Zoom "136")
-        (Occurrence "/LpGBTs"))
-      (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
-      (Schematic "Master-Slave")
-      (Page "Master"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 1305 130 535")
-        (Scroll "-163 0")
-        (Zoom "100")
-        (Occurrence "/Baseboard"))
-      (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
-      (Schematic "Baseboard")
-      (Page "Bottom Connector"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1261 0 405")
-        (Scroll "-81 130")
-        (Zoom "100")
-        (Occurrence "/LpGBTs/Master LpGBT"))
-      (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
-      (Schematic "LpGBT")
-      (Page "LpGBT Power"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 26 1287 26 431")
-        (Scroll "7 493")
-        (Zoom "136")
-        (Occurrence "/LpGBTs"))
-      (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
-      (Schematic "Master-Slave")
-      (Page "Slave")))
+      (Page "Top")))
   (MPSSessionName "Andrew")
   (PartMRUSelector
     (M1P6_CLEARANCE_HOLE

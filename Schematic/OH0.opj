@@ -153,9 +153,18 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.olb")
+      (Path "Design Resources"
+         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn")
+      (Path "Design Resources"
+         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn"
+         "Optohybrid")
+      (Path "Design Resources"
+         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn" "LpGBT")
+      (Path "Design Resources"
+         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn"
+         "Master-Slave")
+      (Path "Design Resources"
+         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn" "Optics")
       (Path "Outputs")
       (Select "Design Resources"
          "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn"))
@@ -250,9 +259,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1228 52 563")
-        (Scroll "-102 0")
-        (Zoom "88")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1228 52 563")
+        (Scroll "40 337")
+        (Zoom "136")
         (Occurrence "/LpGBTs/Master LpGBT"))
       (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
       (Schematic "LpGBT")

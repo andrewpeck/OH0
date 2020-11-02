@@ -172,23 +172,71 @@
          "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.olb")
       (Path "Outputs")
       (Select "Design Resources"
-         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn"))
+         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn" "Optics"
+         "VL+4x1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 449 0 786"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 786"))
       (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1332 156 667"))
+      (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.OLB")
+      (Package "INDUCTOR")
+      (PartType "1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1306 130 641")
+        (Scroll "461 696")
+        (Zoom "176")
+        (Occurrence "/"))
+      (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "Optohybrid")
+      (Page "Top"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1254 78 589")
+        (Scroll "461 76")
+        (Zoom "176")
+        (Occurrence "/LpGBTs"))
+      (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "Master-Slave")
+      (Page "Master"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1280 104 615")
+        (Scroll "676 54")
+        (Zoom "200")
+        (Occurrence "/LpGBTs"))
+      (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "Master-Slave")
+      (Page "Slave"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 130 1306 130 641")
-        (Scroll "-127 -4")
-        (Zoom "88")
-        (Occurrence "/"))
+        (Scroll "-164 77")
+        (Zoom "100")
+        (Occurrence "/Optics"))
       (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
-      (Schematic "Optohybrid")
-      (Page "Top")))
+      (Schematic "Optics")
+      (Page "VL+4x1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 1384 208 719")
+        (Scroll "-39 87")
+        (Zoom "100")
+        (Occurrence "/LpGBTs/Master LpGBT"))
+      (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "LpGBT")
+      (Page "LpGBT Analog + GPIO + Clocks")))
   (MPSSessionName "Andrew")
   (PartMRUSelector
     (M1P6_CLEARANCE_HOLE

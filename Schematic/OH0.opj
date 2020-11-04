@@ -165,6 +165,12 @@
          "Master-Slave")
       (Path "Design Resources"
          "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn" "Optics")
+      (Path "Design Resources"
+         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.olb")
       (Path "Outputs")
       (Select "Design Resources"
          "c:\users\andrew\dropbox\cms\gem\me0\oh0\schematic\oh0.dsn"))
@@ -177,9 +183,16 @@
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1332 156 667"))
+        (Placement "44 0 1 -1 -1 -1 -1 52 1533 52 453"))
       (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.OLB")
       (Package "INDUCTOR")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 -31 1450 77 478"))
+      (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.OLB")
+      (Package "LPGBT")
       (PartType "1"))
     (Doc
       (Type "COrSchematicDoc")
@@ -225,7 +238,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 208 1384 208 719")
-        (Scroll "-39 50")
+        (Scroll "-39 0")
         (Zoom "100")
         (Occurrence "/LpGBTs/Master LpGBT"))
       (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
@@ -260,7 +273,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1228 52 563")
-        (Scroll "40 337")
+        (Scroll "40 223")
         (Zoom "136")
         (Occurrence "/LpGBTs/Master LpGBT"))
       (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")

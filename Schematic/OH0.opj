@@ -227,7 +227,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 130 1306 130 641")
+        (Placement "44 0 1 -1 -1 -8 -31 130 1306 130 641")
         (Scroll "40 28")
         (Zoom "136")
         (Occurrence "/Optics"))
@@ -272,8 +272,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1228 52 563")
-        (Scroll "40 223")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1228 52 563")
+        (Scroll "0 167")
         (Zoom "136")
         (Occurrence "/LpGBTs/Master LpGBT"))
       (Path "C:\USERS\ANDREW\DROPBOX\CMS\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")

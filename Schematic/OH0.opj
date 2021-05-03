@@ -153,26 +153,35 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\oh0.dsn")
-      (Path "Design Resources" ".\oh0.dsn" "ASIAGO")
-      (Path "Design Resources" ".\oh0.dsn" "Baseboard")
-      (Path "Design Resources" ".\oh0.dsn" "LpGBT")
-      (Path "Design Resources" ".\oh0.dsn" "Master-Slave")
-      (Path "Design Resources" ".\oh0.dsn" "Optics")
+      (Path "Design Resources"
+         "c:\users\andrew\dropbox\ucla\gem\me0\oh0\schematic\oh0.dsn")
+      (Path "Design Resources"
+         "c:\users\andrew\dropbox\ucla\gem\me0\oh0\schematic\oh0.dsn" "ASIAGO")
+      (Path "Design Resources"
+         "c:\users\andrew\dropbox\ucla\gem\me0\oh0\schematic\oh0.dsn"
+         "Baseboard")
+      (Path "Design Resources"
+         "c:\users\andrew\dropbox\ucla\gem\me0\oh0\schematic\oh0.dsn" "LpGBT")
+      (Path "Design Resources"
+         "c:\users\andrew\dropbox\ucla\gem\me0\oh0\schematic\oh0.dsn"
+         "Master-Servant")
+      (Path "Design Resources"
+         "c:\users\andrew\dropbox\ucla\gem\me0\oh0\schematic\oh0.dsn" "Optics")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\oh0.dsn"))
+      (Select "Design Resources"
+         "c:\users\andrew\dropbox\ucla\gem\me0\oh0\schematic\oh0.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 316 0 866"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 866"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 182 1528 182 641")
-        (Scroll "-281 0")
+        (Scroll "-281 9")
         (Zoom "92")
         (Occurrence "/Baseboard"))
       (Path "C:\USERS\ANDREW\DROPBOX\UCLA\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
@@ -191,8 +200,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 1528 130 488")
-        (Scroll "-150 213")
+        (Placement "44 2 3 -1 -1 -8 -31 130 1528 130 488")
+        (Scroll "-236 90")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\ANDREW\DROPBOX\UCLA\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
@@ -202,26 +211,26 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 156 1554 156 514")
-        (Scroll "-150 23")
+        (Scroll "-150 10")
         (Zoom "100")
         (Occurrence "/LpGBTs"))
       (Path "C:\USERS\ANDREW\DROPBOX\UCLA\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
-      (Schematic "Master-Slave")
+      (Schematic "Master-Servant")
       (Page "Master"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 0 1398 0 358")
-        (Scroll "425 198")
-        (Zoom "180")
+        (Scroll "107 556")
+        (Zoom "156")
         (Occurrence "/LpGBTs"))
       (Path "C:\USERS\ANDREW\DROPBOX\UCLA\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
-      (Schematic "Master-Slave")
-      (Page "Slave"))
+      (Schematic "Master-Servant")
+      (Page "Servant"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 26 1424 26 384")
+        (Placement "44 0 1 -1 -1 -8 -31 26 1424 26 384")
         (Scroll "0 336")
         (Zoom "140")
         (Occurrence "/LpGBTs/Master LpGBT"))
@@ -232,7 +241,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1450 52 410")
-        (Scroll "-150 80")
+        (Scroll "-150 0")
         (Zoom "100")
         (Occurrence "/LpGBTs/Master LpGBT"))
       (Path "C:\USERS\ANDREW\DROPBOX\UCLA\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
@@ -244,7 +253,7 @@
         (Placement "44 0 1 -1 -1 -8 -31 104 1424 104 633")
         (Scroll "-111 0")
         (Zoom "100")
-        (Occurrence "/LpGBTs/Slave LpGBT"))
+        (Occurrence "/LpGBTs/Servant LpGBT"))
       (Path "C:\USERS\ANDREW\DROPBOX\UCLA\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
       (Schematic "LpGBT")
       (Page "LpGBT E-Links + Transceivers"))
@@ -252,16 +261,12 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 26 1332 26 443")
-        (Scroll "4 337")
+        (Scroll "0 337")
         (Zoom "140")
         (Occurrence "/Optics"))
       (Path "C:\USERS\ANDREW\DROPBOX\UCLA\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
       (Schematic "Optics")
-      (Page "VTRX+"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1450 104 563"))))
+      (Page "VTRX+")))
   (MPSSessionName "Andrew")
   (PartMRUSelector
     (M1P6_CLEARANCE_HOLE

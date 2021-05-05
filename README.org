@@ -1,4 +1,4 @@
-#+TITLE: ME0 ASIAGO (Optohybrid)
+#+TITLE: ME0 ASIAGO
 
 #+html: <p><img width="300" alt="ME0 ASIAGO Top" src="Doc/ASIAGO_TOP.jpeg" /> <img width="300" alt="ME0 ASIAGO Bottom" src="Doc/ASIAGO_BOTTOM.jpeg" /></p>
 
@@ -7,6 +7,7 @@ https://twiki.cern.ch/twiki/bin/view/CMS/ME0ASIAGO
 #+BEGIN_SRC
 ├── README.org
 ├── Footprints  ; Allegro Footprints
+├── Doc         ; Images, etc.
 ├── Layout      ; Allegro Layout
 ├── Padstacks   ; Allegro Padstacks
 ├── Release     ; Released production files

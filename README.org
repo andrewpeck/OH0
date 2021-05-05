@@ -1,0 +1,33 @@
+#+TITLE: ASIAGO Readme
+
+* ME0 ASIAGO (Optohybrid)
+
+https://twiki.cern.ch/twiki/bin/view/CMS/ME0ASIAGO
+
+#+BEGIN_SRC
+├── README.org  ;;
+├── Footprints  ;;
+├── Layout      ;;
+├── Padstacks   ;;
+├── Release     ;;
+└── Schematic   ;; OrCAD Schematic + Library
+#+END_SRC
+
+- [[https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_interfaces.pdf][ME0 ASIAGO Interfaces]]
+- [[https://twiki.cern.ch/twiki/bin/view/CMS/ME0ASIAGO][ME0 ASIAGO Twiki]]
+
+* Datasheets
+** LPGBT
+- [[https://lpgbt.web.cern.ch/lpgbt/manual/][lpGBT Manual]]
+- [[https://indico.cern.ch/event/697988/contributions/3075493/attachments/1720215/2776778/lpGBTtutorialTwepp20180921.pdf][lpGBT: A User's Perspective]]
+- [[https://espace.cern.ch/GBT-Project/LpGBT/Specifications/LpGbtxSpecifications.pdf][lpGBT Specifications]]
+- [[https://espace.cern.ch/GBT-Project/LpGBT/Presentations/Forms/AllItems.aspx][lpGBT Presentations]]
+** VTRX+
+- [[https://edms.cern.ch/ui/#!master/navigator/project?P:1930058715:1767090345:subDocs][VTRX+ EDMS]]
+- [[https://edms.cern.ch/file/1719329/1/VTRxPlus_spec_v2.4.pdf][VTRx+ Specification]]
+- [[https://edms.cern.ch/file/2149674/1/VTRxPlusApplicationNote.pdf][VTRx+ Application Note]]
+** Other Components
+- [[http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rum001l02t2cl-e.pdf][RUM001L02]]
+- [[https://www.ti.com/lit/ds/symlink/sn74aup1g17.pdf][SN74AUP1G17]]
+- [[https://www.hirose.com/product/document?clcode=CL0684-4003-3-51&productname=DF40C-60DP-0.4V(51)&series=DF40&documenttype=Catalog&lang=en&documentid=D31649_en][DF40C(2.0)-40DS-0.4V(51)]]
+- [[http://suddendocs.samtec.com/catalog_english/st5.pdf][ST5-50-1.50-L-D-P]]

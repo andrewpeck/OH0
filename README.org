@@ -1,8 +1,8 @@
 #+TITLE: ME0 ASIAGO
 
-#+html: <p><img width="300" alt="ME0 ASIAGO Top" src="Doc/ASIAGO_TOP.jpeg" /> <img width="300" alt="ME0 ASIAGO Bottom" src="Doc/ASIAGO_BOTTOM.jpeg" /></p>
+/ASIAGO: a strong-flavored cow's milk cheese originally made in northern Italy. In this case, ASIAGO is the ASIC and Gigabit Optics./
 
-https://twiki.cern.ch/twiki/bin/view/CMS/ME0ASIAGO
+#+html: <p><img width="300" alt="ME0 ASIAGO Top" src="Doc/ASIAGO_TOP.jpeg" /> <img width="300" alt="ME0 ASIAGO Bottom" src="Doc/ASIAGO_BOTTOM.jpeg" /></p>
 
 #+BEGIN_SRC
 ├── README.org
@@ -33,20 +33,22 @@ All of these components are meant to be used in non-critical circuitry.
 - [[http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rum001l02t2cl-e.pdf][RUM001L02]]
 - [[https://www.ti.com/lit/ds/symlink/sn74aup1g17.pdf][SN74AUP1G17]]
 - [[http://suddendocs.samtec.com/catalog_english/st5.pdf][ST5-50-1.50-L-D-P]]
-- SMT-0340-T-R
-- LTST-C193KGKT-5A
-- BAS521Q-13
-- LTST-C193KRKT-5A
-
+- [[https://www.puiaudio.com/media/SpecSheet/SMT-0340-T-R.pdf][SMT-0340-T-R]]
+- [[https://www.diodes.com/assets/Datasheets/BAS521Q.pdf][BAS521Q-13]]
+- [[https://optoelectronics.liteon.com/upload/download/DS22-2007-0094/LTST-C193KGKT-5A.PDF][LTST-C193KGKT-5A]] (Green)
+- [[https://optoelectronics.liteon.com/upload/download/DS22-2005-077/LTST-C193KRKT-5A.PDF][LTST-C193KRKT-5A]] (Red)
 * Misc
 **  Design Files:
-/ASIAGO: a strong-flavored cow's milk cheese originally made in northern Italy. In this case, ASIAGO is the ASIC and Gigabit Optics./
-- Schematic (PDF): https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_schematic_20190806.pdf
-- Artwork (PDF): https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_artwork_20190806.pdf
-- Bill of Materials: https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_bom_20190806.xlsx
-- Gerber / Drill / Pick: https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_artwork_20190806.zip
-- ODB++: https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_odb_20190806.zip
-- Orcad/Allegro Project: https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_project_20190806.zip
-- Stackup: https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/ch1447158_1.pdf
+*** v2
+*** v1
+|-----------------------+---------------------------------------------------------------------------------|
+| Schematic PDF         | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_schematic_20190806.pdf |
+| Artwork PDF           | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_artwork_20190806.pdf   |
+| Bill of Materials     | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_bom_20190806.xlsx      |
+| Gerber / Drill / Pick | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_artwork_20190806.zip   |
+| ODB++                 | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_odb_20190806.zip       |
+| Orcad/Allegro Project | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_project_20190806.zip   |
+| Stackup               | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/ch1447158_1.pdf                   |
+|-----------------------+---------------------------------------------------------------------------------|
 ** Notes
 VL+ Fiber Mapping: #7 = Master RX, # 5 = Master TX, # 6 = Slave RX

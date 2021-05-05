@@ -1,16 +1,14 @@
-#+TITLE: ASIAGO Readme
-
-* ME0 ASIAGO (Optohybrid)
+#+TITLE: ME0 ASIAGO (Optohybrid)
 
 https://twiki.cern.ch/twiki/bin/view/CMS/ME0ASIAGO
 
 #+BEGIN_SRC
-├── README.org  ;;
-├── Footprints  ;;
-├── Layout      ;;
-├── Padstacks   ;;
-├── Release     ;;
-└── Schematic   ;; OrCAD Schematic + Library
+├── README.org
+├── Footprints  ; Allegro Footprints
+├── Layout      ; Allegro Layout
+├── Padstacks   ; Allegro Padstacks
+├── Release     ; Released production files
+└── Schematic   ; OrCAD Schematic + Library
 #+END_SRC
 
 - [[https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_interfaces.pdf][ME0 ASIAGO Interfaces]]

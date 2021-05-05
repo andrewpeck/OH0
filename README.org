@@ -1,7 +1,6 @@
 #+TITLE: ME0 ASIAGO (Optohybrid)
 
-#+attr_html: :width 300px
-[[file:Doc/ASIAGO_TOP.jpeg]]
+#+html: <p><img width="300" alt="ME0 ASIAGO" src="Doc/ASIAGO_TOP.jpeg" /></p>
 
 https://twiki.cern.ch/twiki/bin/view/CMS/ME0ASIAGO
 
@@ -40,7 +39,7 @@ All of these components are meant to be used in non-critical circuitry.
 
 * Misc
 **  Design Files:
-ASISAGO: a strong-flavored cow's milk cheese originally made in northern Italy. In this case, ASIAGO is the ASIC and Gigabit Optics.
+/ASIAGO: a strong-flavored cow's milk cheese originally made in northern Italy. In this case, ASIAGO is the ASIC and Gigabit Optics./
 - Schematic (PDF): https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_schematic_20190806.pdf
 - Artwork (PDF): https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_artwork_20190806.pdf
 - Bill of Materials: https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_bom_20190806.xlsx

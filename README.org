@@ -1,7 +1,6 @@
 #+TITLE: ME0 ASIAGO (Optohybrid)
 
-#+html: <p><img width="300" alt="ME0 ASIAGO Top" src="Doc/ASIAGO_TOP.jpeg" /><img width="300" alt="ME0 ASIAGO Bottom" src="Doc/ASIAGO_BOTTOM.jpeg" />
-</p>
+#+html: <p><img width="300" alt="ME0 ASIAGO Top" src="Doc/ASIAGO_TOP.jpeg" /> <img width="300" alt="ME0 ASIAGO Bottom" src="Doc/ASIAGO_BOTTOM.jpeg" /></p>
 
 https://twiki.cern.ch/twiki/bin/view/CMS/ME0ASIAGO
 

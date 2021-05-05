@@ -1,7 +1,7 @@
 #+TITLE: ME0 ASIAGO (Optohybrid)
 
-#+attr_html: :width 500px
-[[file:doc/ASIAGO_TOP.jpeg]]
+#+attr_html: :width 300px
+[[file:Doc/ASIAGO_TOP.jpeg]]
 
 https://twiki.cern.ch/twiki/bin/view/CMS/ME0ASIAGO
 

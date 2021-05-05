@@ -41,7 +41,6 @@ All of these components are meant to be used in non-critical circuitry.
 **  Design Files:
 *** v2
 *** v1
-|-----------------------+---------------------------------------------------------------------------------|
 | Schematic PDF         | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_schematic_20190806.pdf |
 | Artwork PDF           | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_artwork_20190806.pdf   |
 | Bill of Materials     | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_bom_20190806.xlsx      |
@@ -49,6 +48,5 @@ All of these components are meant to be used in non-critical circuitry.
 | ODB++                 | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_odb_20190806.zip       |
 | Orcad/Allegro Project | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_project_20190806.zip   |
 | Stackup               | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/ch1447158_1.pdf                   |
-|-----------------------+---------------------------------------------------------------------------------|
 ** Notes
 VL+ Fiber Mapping: #7 = Master RX, # 5 = Master TX, # 6 = Slave RX

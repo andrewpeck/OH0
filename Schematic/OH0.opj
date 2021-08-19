@@ -180,8 +180,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 182 1528 182 641")
-        (Scroll "-161 19")
+        (Placement "44 2 3 -1 -1 -8 -31 182 1528 182 641")
+        (Scroll "-273 488")
         (Zoom "122")
         (Occurrence "/Baseboard"))
       (Path "C:\USERS\ANDREW\DROPBOX\UCLA\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
@@ -190,8 +190,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 1502 104 462")
-        (Scroll "-160 0")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1502 104 462")
+        (Scroll "-74 773")
         (Zoom "150")
         (Occurrence "/Baseboard"))
       (Path "C:\USERS\ANDREW\DROPBOX\UCLA\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
@@ -221,8 +221,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 0 1398 0 358")
-        (Scroll "506 390")
-        (Zoom "194")
+        (Scroll "-166 0")
+        (Zoom "97")
         (Occurrence "/LpGBTs"))
       (Path "C:\USERS\ANDREW\DROPBOX\UCLA\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
       (Schematic "Master-Servant")
@@ -231,8 +231,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 26 1424 26 384")
-        (Scroll "81 1234")
-        (Zoom "194")
+        (Scroll "-166 0")
+        (Zoom "97")
         (Occurrence "/LpGBTs/Master LpGBT"))
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 26 1079 26 485")
@@ -251,8 +251,8 @@
         (Occurrence "/LpGBTs/Servant LpGBT"))
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 0 136 0 39")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Scroll "-252 -8")
+        (Zoom "97")
         (Occurrence "/LpGBTs/Master LpGBT"))
       (Path "C:\USERS\ANDREW\DROPBOX\UCLA\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
       (Schematic "LpGBT")
@@ -261,12 +261,32 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 26 1332 26 443")
-        (Scroll "770 760")
-        (Zoom "194")
+        (Scroll "-120 0")
+        (Zoom "97")
         (Occurrence "/Optics"))
       (Path "C:\USERS\ANDREW\DROPBOX\UCLA\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
       (Schematic "Optics")
-      (Page "VTRX+")))
+      (Page "VTRX+"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1450 156 721")
+        (Scroll "-114 0")
+        (Zoom "97")
+        (Occurrence "/LpGBTs/Master LpGBT"))
+      (Path "C:\USERS\ANDREW\DROPBOX\UCLA\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "LpGBT")
+      (Page "LpGBT Power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 1476 182 747")
+        (Scroll "-98 0")
+        (Zoom "100")
+        (Occurrence "/LpGBTs/Master LpGBT"))
+      (Path "C:\USERS\ANDREW\DROPBOX\UCLA\GEM\ME0\OH0\SCHEMATIC\OH0.DSN")
+      (Schematic "LpGBT")
+      (Page "LpGBT Analog + GPIO + Clocks")))
   (MPSSessionName "Andrew")
   (PartMRUSelector
     (PORTLEFT-R

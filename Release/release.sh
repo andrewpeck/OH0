@@ -6,6 +6,7 @@ mkdir $RELEASEDIR
 cd ../Layout && sh zip_artwork.sh && cd -
 cp ../Schematic/oh0.pdf $RELEASEDIR/me0_asiago_schematic_$DATESHORT.pdf
 cp ../Layout/place_txt.txt $RELEASEDIR/me0_asiago_placement_$DATESHORT.txt
+cp ../Layout/oh0.stp $RELEASEDIR/me0_asiago_step_$DATESHORT.stp
 cp ../Schematic/ME0_ASIAGO_BOM.xlsx $RELEASEDIR/me0_asiago_bom_$DATESHORT.xlsx
 cp ../Layout/ME0_ASIAGO_ARTWORK.pdf $RELEASEDIR/me0_asiago_artwork_$DATESHORT.pdf
 cp ../Layout/asiago_artwork.zip $RELEASEDIR/me0_asiago_artwork_$DATESHORT.zip

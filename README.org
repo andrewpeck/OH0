@@ -15,6 +15,7 @@
 #+END_SRC
 
 - [[https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_interfaces.pdf][ME0 ASIAGO Interfaces]]
+- [[https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/ME0_OH_v2_Specification.pdf][ME0 ASIAGO Specifications]]
 - [[https://twiki.cern.ch/twiki/bin/view/CMS/ME0ASIAGO][ME0 ASIAGO Twiki]]
 
 * Datasheets

@@ -40,6 +40,18 @@ All of these components are meant to be used in non-critical circuitry.
 * Misc
 **  Design Files:
 *** v2
+|-----------------------+---------------------------------------------------------------------------------|
+| File                  | Link                                                                            |
+|-----------------------+---------------------------------------------------------------------------------|
+| Schematic PDF         | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_schematic_20211110.pdf |
+| Artwork PDF           | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_artwork_20211110.pdf   |
+| Bill of Materials     | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_bom_20211110.xlsx      |
+| Gerber / Drill / Pick | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_artwork_20211110.zip   |
+| ODB++                 | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_odb_20211110.zip       |
+| Orcad/Allegro Project | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_project_20211110.zip   |
+| 3D Model (step)       | https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/me0_asiago_step_20211110.stp      |
+| Stackup               | [[https://twiki.cern.ch/twiki/pub/CMS/ME0ASIAGO/ME0_ASIAGO_-_Rev2_%28Pactron%29--8_%28051421%29.xls][ME0_ASIAGO_Rev2_stackup.xls]]                                                     |
+|-----------------------+---------------------------------------------------------------------------------|
 *** v1
 |-----------------------+---------------------------------------------------------------------------------|
 | File                  | Link                                                                            |
